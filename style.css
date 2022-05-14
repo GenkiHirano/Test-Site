@@ -9,4 +9,6 @@ body {
   width: 900px;
   height: 800px;
   background-color: blue;
+  margin: 0px auto;
+  float: none;
 }
