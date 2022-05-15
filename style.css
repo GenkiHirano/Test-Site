@@ -9,6 +9,11 @@ body {
   background-repeat: repeat-x;
 }
 
+p {
+  font-size: 12px;
+  line-height: 150%;
+}
+
 #container {
   width: 900px;
   height: 800px;
@@ -78,7 +83,7 @@ header #Navi_area li a:hover {
 }
 
 main {
-  height: 600px;
+  height: auto;
   width: 900px;
 }
 
@@ -186,7 +191,7 @@ main #Side_navi {
 }
 
 main #Main_box {
-  height: 300px;
+  height: auto;
   width: 450px;
   /* フレックスボックスに置き換える */
   float: left;
@@ -215,6 +220,30 @@ main #Main_box {
   padding: 5px;
 }
 
+#Main_box .MainBox_item .MainBox_right {
+  font-size: 11px;
+  /* フレックスボックスに置き換える */
+  float: right;
+  width: 250px;
+}
+
+#Main_box .MainBox_item img {
+  /* フレックスボックスに置き換える */
+  float: left;
+}
+
+#Main_box .MainBox_item a {
+  color: #f63;
+}
+
+#Main_box .MainBox_item .MainBox_news {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: #747474;
+  border-bottom-style: solid;
+}
+
 main #Banner_box {
   height: 300px;
   width: 200px;
@@ -225,6 +254,7 @@ main #Banner_box {
 }
 
 footer {
+  clear: both;
   height: 20px;
   width: 900px;
   background-color: #000;
