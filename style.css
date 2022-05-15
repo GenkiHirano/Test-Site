@@ -85,6 +85,7 @@ main {
 main #Side_navi {
   height: 300px;
   width: 210px;
+  /* フレックスボックスに置き換える */
   float: left;
   margin-top: 30px;
 }
@@ -187,14 +188,37 @@ main #Side_navi {
 main #Main_box {
   height: 300px;
   width: 450px;
+  /* フレックスボックスに置き換える */
   float: left;
   margin: 30px 0 0 20px;
-  background-color: blue;
+}
+
+#Main_box .MainBox_item {
+  width: 450px;
+  /* フレックスボックスに置き換える */
+  float: left;
+  margin-bottom: 20px;
+}
+
+#Main_box .MainBox_item .MainTitle {
+  background-image: url(./images/MainTitle.gif);
+  width: 450px;
+  height: 25px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+#Main_box .MainBox_item .MainTitle h2 {
+  font-size: 12px;
+  color: 4A4A4A;
+  margin: 0 0 0 10px;
+  padding: 5px;
 }
 
 main #Banner_box {
   height: 300px;
   width: 200px;
+  /* フレックスボックスに置き換える */
   float: right;
   margin-top: 30px;
   background-color: blue;
