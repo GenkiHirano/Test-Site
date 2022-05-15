@@ -31,7 +31,10 @@ header #Logo_area {
   float: left;
   height: 100px;
   width: 300px;
-  padding-top: 30px;
+}
+
+header #Logo_area h1 {
+  margin-top: 40px;
 }
 
 header #Navi_area {
@@ -77,6 +80,124 @@ header #Navi_area li a:hover {
 main {
   height: 600px;
   width: 900px;
+}
+
+main #Side_navi {
+  height: 300px;
+  width: 210px;
+  float: left;
+  margin-top: 30px;
+}
+
+#Side_navi ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #000;
+}
+
+#Side_navi ul #navi01 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Top_out.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul #navi02 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Guide_over.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul #navi03 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Owners_over.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul #navi04 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Modelhouse_over.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul #navi05 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Blog_over.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul #navi06 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Event_over.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul #navi07 {
+  padding: 0px;
+  margin: 0px;
+  width: 210px;
+  height: 46px;
+  background: url(./images/SideNavi_Request_over.gif) no-repeat;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+#Side_navi ul a:hover img {
+  visibility: hidden;
+}
+
+#Side_navi ul h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+main #Main_box {
+  height: 300px;
+  width: 450px;
+  float: left;
+  margin: 30px 0 0 20px;
+  background-color: blue;
+}
+
+main #Banner_box {
+  height: 300px;
+  width: 200px;
+  float: right;
+  margin-top: 30px;
+  background-color: blue;
 }
 
 footer {
