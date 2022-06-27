@@ -1,11 +1,9 @@
 body {
-  font-family: "ヒラギノ角ゴ Pro w3", "Hiragino Kaku Gothic Pro", "メイリオ",
-    Meiryo, Osaka, "MS Pゴシック", "MS PGothic", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(./images/body_border.gif);
+  background-image: url(images/body_border.gif);
   background-repeat: repeat-x;
 }
 
@@ -16,8 +14,8 @@ p {
 
 #container {
   width: 900px;
-  height: 800px;
-  margin: 0px auto;
+  height: 600px;
+  margin: 0px auto 0px auto;
   float: none;
 }
 
@@ -32,7 +30,6 @@ header h1 {
 }
 
 header #Logo_area {
-  /* フレックスボックスに置き換える */
   float: left;
   height: 100px;
   width: 300px;
@@ -43,14 +40,12 @@ header #Logo_area h1 {
 }
 
 header #Navi_area {
-  /* フレックスボックスに置き換える */
   float: right;
   height: 100px;
   width: 580px;
 }
 
 header #Navi_area #Banner {
-  /* フレックスボックスに置き換える */
   float: right;
   margin-right: 30px;
 }
@@ -63,7 +58,6 @@ header #Navi_area ul {
 
 header #Navi_area li {
   display: inline;
-  /* フレックスボックスに置き換える */
   float: right;
   width: 70px;
   border-left-style: solid;
@@ -90,7 +84,6 @@ main {
 main #Side_navi {
   height: 300px;
   width: 210px;
-  /* フレックスボックスに置き換える */
   float: left;
   margin-top: 30px;
 }
@@ -105,77 +98,72 @@ main #Side_navi {
 }
 
 #Side_navi ul #navi01 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Top_over.gif) no-repeat;
+  background: url("images/SideNavi_Top_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
 }
 
 #Side_navi ul #navi02 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Guide_over.gif) no-repeat;
+  background: url("images/SideNavi_Guide_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
 }
-
 #Side_navi ul #navi03 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Owners_over.gif) no-repeat;
+  background: url("images/SideNavi_Owners_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
 }
-
 #Side_navi ul #navi04 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Modelhouse_over.gif) no-repeat;
+  background: url("images/SideNavi_Modelhouse_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
 }
-
 #Side_navi ul #navi05 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Blog_over.gif) no-repeat;
+  background: url("images/SideNavi_Blog_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
 }
-
 #Side_navi ul #navi06 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Event_over.gif) no-repeat;
+  background: url("images/SideNavi_Event_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
 }
-
 #Side_navi ul #navi07 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   width: 210px;
   height: 46px;
-  background: url(./images/SideNavi_Request_over.gif) no-repeat;
+  background: url("images/SideNavi_Request_over.gif") no-repeat;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #000;
@@ -186,27 +174,25 @@ main #Side_navi {
 }
 
 #Side_navi ul h2 {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 
 main #Main_box {
   height: auto;
   width: 450px;
-  /* フレックスボックスに置き換える */
   float: left;
-  margin: 30px 0 0 20px;
+  margin: 30px 0px 0px 20px;
 }
 
 #Main_box .MainBox_item {
   width: 450px;
-  /* フレックスボックスに置き換える */
   float: left;
   margin-bottom: 20px;
 }
 
 #Main_box .MainBox_item .MainTitle {
-  background-image: url(./images/MainTitle.gif);
+  background-image: url("images/MainTitle.gif");
   width: 450px;
   height: 25px;
   margin-top: 0px;
@@ -222,17 +208,15 @@ main #Main_box {
 
 #Main_box .MainBox_item .MainBox_right {
   font-size: 11px;
-  /* フレックスボックスに置き換える */
   float: right;
   width: 250px;
 }
 
 #Main_box .MainBox_item img {
-  /* フレックスボックスに置き換える */
   float: left;
 }
 
-#Main_box .MainBox_item a {
+#Main_Box .MainBox_item a {
   color: #f63;
 }
 
@@ -280,12 +264,11 @@ main #Main_box {
 main #Banner_box {
   height: 300px;
   width: 200px;
-  /* フレックスボックスに置き換える */
   float: right;
   margin-top: 30px;
 }
 
-main .BannerImage {
+main .BannerImg {
   display: flex;
   justify-content: space-between;
 }
@@ -306,14 +289,14 @@ main #MainBox_sub {
   width: 650px;
   height: auto;
   float: left;
-  margin: 30px 0 20px 40px;
+  margin: 30px 0px 20px 40px;
 }
 
 main #MainBox_sub .SubPage_title {
   width: 650px;
   height: 30px;
   margin-bottom: 10px;
-  background-image: url(./images/SubPage_title.gif);
+  background-image: url(images/SubPage_title.gif);
 }
 
 main #MainBox_sub .SubPage_title h2 {
@@ -333,7 +316,8 @@ main #MainBox_sub .Corporate_title {
 
 main #MainBox_sub .Corporate_title h3 {
   font-size: 12px;
-  padding: 3px 0 0 10px;
+  padding-top: 3px;
+  padding-left: 10px;
 }
 
 table {
