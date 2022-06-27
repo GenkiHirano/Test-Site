@@ -244,6 +244,39 @@ main #Main_box {
   border-bottom-style: solid;
 }
 
+#MainBox_sub .MainBox_item {
+  width: 650px;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-color: #333;
+  border-bottom-style: solid;
+}
+
+#MainBox_sub .MainBox_item .Item_title {
+  height: 30px;
+  width: 645px;
+  margin-bottom: 20px;
+  border-top-width: 20px;
+  border-top-color: #ccc;
+  border-top-style: solid;
+  border-left-width: 5px;
+  border-left-color: #ccc;
+  border-left-style: solid;
+}
+
+#MainBox_sub .MainBox_item .Item_title h3 {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #306;
+  padding-left: 10px;
+}
+
+#MainBox_sub .MainBox_item .Item_text {
+  width: 270px;
+  float: right;
+  margin-right: 5px;
+}
+
 main #Banner_box {
   height: 300px;
   width: 200px;
